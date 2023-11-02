@@ -1,11 +1,11 @@
 import axios from 'axios';
 import React from 'react';
-import { Col, Container, Row, Button } from 'react-bootstrap';
-import headerImage from '../../assets/tutoring.svg';
-import discordIcon from '../../assets/icons/discord-icon.webp';
-import { MetaData } from '../../components/Meta/MetaData';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useQuery, useQueryClient } from 'react-query';
+import discordIcon from '../../assets/icons/discord-icon.webp';
+import headerImage from '../../assets/tutoring.svg';
 import Loading from '../../components/Loading/Loading';
+import { MetaData } from '../../components/Meta/MetaData';
 import './Tutoring.css';
 
 const meta = {
@@ -95,11 +95,14 @@ const Tutoring = () => {
 			<Container fluid className='contained sub-section'>
 				<h2 className='heading'>Tutoring Available</h2>
 				<div className='classes-wrapper'>
-					<div className='class-number'>General Help</div>
 					<div className='class-number'>COSC 1336</div>
 					<div className='class-number'>COSC 1437</div>
 					<div className='class-number'>COSC 2436</div>
 					<div className='class-number'>COSC 2425</div>
+					<div className='class-number'>COSC 3320</div>
+					<div className='class-number'>COSC 3340</div>
+					<div className='class-number'>COSC 3360</div>
+					<div className='class-number'>COSC 3380</div>
 				</div>
 			</Container>
 
